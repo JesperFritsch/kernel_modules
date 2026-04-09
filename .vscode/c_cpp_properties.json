@@ -9,8 +9,21 @@
             ],
             "defines": [
                 "__KERNEL__",
+                "__LINUX_KERNEL__",
                 "MODULE",
-                "__GNUC__"
+                "__GNUC__",
+                "__init=",
+                "__exit=",
+                "__initdata=",
+                "__exitdata=",
+                "__user=",
+                "__iomem=",
+                "__force=",
+                "__acquires(x)=",
+                "__releases(x)=",
+                "__must_check=",
+                "CONFIG_FB",
+                "CONFIG_FB_CORE"
             ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "c11",
